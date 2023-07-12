@@ -1,0 +1,119 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}   
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(7, 160, 7);
+    padding: 24px;
+    width: 50%;
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+.img-container {
+    height: fit-content;
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name {
+    font-family: "Play", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+input {
+    border: solid thin gray;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 8px;
+    background-color: white;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.product-price {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+.cta-btn {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    border: 2px solid rgb(209, 209, 209);
+    letter-spacing: 0.5px;
+    width: fit-content;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 0.6px rgba(0, 0, 0, 0.2);
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 50%;
+    color: black;
+    background-color: transparent;
+    padding: 24px 48px;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+}
+
+.color-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid gray; 
+}
