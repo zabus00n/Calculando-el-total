@@ -23,7 +23,7 @@
     flex-direction: row;
     background-color: transparent;
     height: fit-content;
-    width: fit-content;
+    width: 800px;
 }
 
 .card {
@@ -34,7 +34,7 @@
     padding: 24px;
     width: 50%;
     border-radius: 8px;
-    border: 2px solid gray;
+    border: 2px solid rgb(99, 99, 99);
 }
 
 .img-container {
@@ -54,14 +54,15 @@
     font-family: "Play", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     margin-bottom: 16px;
 }
 
 input {
     border: solid thin gray;
     border-radius: 8px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 360px;
     padding: 12px 8px;
     background-color: white;
     margin-bottom: 16px;
@@ -89,6 +90,20 @@ input {
     line-height: 16px;
     font-weight: 500;
     box-shadow: 2px 2px 2px 0.6px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
+.cta-btn:active {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    transition: 3ms;
 }
 
 .results {
